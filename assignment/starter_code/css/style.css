@@ -1,0 +1,156 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+/* SETUP*/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* BASE STYLES*/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: OpenSans;
+     background-size: cover;
+     text-align: center;
+     margin-left: 350px; 
+     margin-right: 350px;
+     margin-top: 0; 
+     margin-bottom: 0;
+}
+
+
+@font-face {
+  font-family: OpenSans;
+  src: url('https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans');
+  weight: Light, Light Italic, Semibold, Extrabold;
+}
+
+/* LAYOUT*/
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100%;
+  min-height: 280px;
+  color: white;
+}
+
+header .brand {
+  text-align: initial;
+  margin-left: 10%;
+}
+.brand {
+  font-size: 24px;  
+}
+
+.benefits {
+  background-color: #f0efef;
+  text-align: initial;
+  min-height: 250px;
+  padding: 30px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 100%;
+  font-size: 13px; 
+  color: white; 
+  min-height: 160px;
+}
+
+.testimonialquote {
+  padding: 30px;
+  padding-bottom: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-style: italic;
+  font-weight: lighter;
+  margin: 0;
+}
+.testimonialname {
+  font-style: bold;
+  padding-top: 0px;
+}
+
+aside {
+  background: #f9e42e;
+  height: 60px;
+  padding: 30px;
+  margin: 0;
+}
+
+footer {
+  background-color:#606161;
+  min-height: 200px;
+  padding: 20px;
+}
+
+footer .brand {
+  color: #f9e42e;
+}
+
+/* ADDITIONAL STYLES*/
+
+/*nav*/
+
+.navlists {
+  list-style: none;
+  display: inline;
+  text-align: center; 
+}
+
+.twitter {
+  list-style-image: url(../images/twitter.png)no-repeat center top rgb(134,141,157);
+  display: inline;
+}
+
+.facebook {
+  list-style: none;
+  display: inline;
+}
+
+/*links*/ 
+
+a {
+  text-decoration: none;
+}
+a:visited.getitnow {
+  color: #000
+}
+a:visited.signupnow {
+  color: white;
+}
+
+.getitnow {
+  border: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 14px;
+  background: #f9e42e;
+  color: black; 
+  text-align: center;
+}
+
+.signupnow {
+  border: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  font-size: 12px;
+  background: #033048;
+  color: white; 
+  text-align: center;
+}
